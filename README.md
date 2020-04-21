@@ -1,4 +1,4 @@
-# compost-nyc
+# Compost-NYC App
 
 # Problem Statement
 ## An app that locates food scrap drop off locations by borough and hours of operation.
