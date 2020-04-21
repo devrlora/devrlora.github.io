@@ -1,14 +1,19 @@
-import React from 'react'
-import Route from ''
+import React, { Component } from 'react'
+// import {Route} from 'react-router-dom';
 
-export default function Signup() {
-    return (
-        <div>
-        
-        <Route path='/sign-up' component={() => { 
-     window.location.href = 'https://www1.nyc.gov/assets/dsny/site/contact/organics-collection-application'; 
-     return null;
-}}/>
-        </div>
-    )
+
+
+
+class Signup extends Component {
+    render() {
+        return (
+            <div>
+                
+            <a href={`https://www1.nyc.gov/assets/dsny/site/contact/organics-collection-application`}>Send Me there!</a>
+              
+            </div>
+        );
+    }
 }
+
+export default Signup;
