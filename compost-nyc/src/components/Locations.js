@@ -6,7 +6,7 @@ export class Locations extends Component {
         this.state={}
     }
 
-    
+
    async componentDidMount(){
     const url = 'https://data.cityofnewyork.us/resource/if26-z6xq.json?borough=Manhattan';
     const response = await fetch(url);
@@ -31,4 +31,4 @@ export class Locations extends Component {
     }
 }
 
-export default Locations
+export default Locations;
