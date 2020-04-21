@@ -4,7 +4,7 @@
 ## An app that locates food scrap drop off locations by borough and hours of operation.
 
 # Target User
-## New York City residents who do not have compost pick up available in there building.
+## New York City residents who do not have compost pick up available in their building.
 
 # Api used:
 ## https://data.cityofnewyork.us/resource/if26-z6xq.json
