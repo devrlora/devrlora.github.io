@@ -16,10 +16,10 @@ export class Locations extends Component {
     const response = await fetch(url);
     const data = await response.json();
     this.setState({
-        site: data[1].food_scrap_drop_off_site,
-        location:data[1].location,
-        open: data[1].hours_to,
-        close: data[1].hours_from
+        site: data[3].food_scrap_drop_off_site,
+        location:data[3].location,
+        open: data[3].hours_to,
+        close: data[3].hours_from
     })
     
     // console.log(data[0]);
