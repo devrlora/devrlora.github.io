@@ -1,11 +1,12 @@
 import React from 'react'
+import '../components/Footer.css';
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear;
-
+    const currentYear = new Date().getFullYear();
+// Add self updating copyright date
     return (
-        <div>
-            ${currentYear};
+        <div className='footer'>
+            <h2>Copyright © {currentYear}</h2>
         </div>
     )
 }
