@@ -3,6 +3,7 @@ import {Route, Switch, NavLink} from 'react-router-dom';
 import Locations from './Locations';
 import Signup from './Signup';
 import About from './About';
+import '../components/Navbar.css';
 
 
 export class Navbar extends Component {
@@ -11,7 +12,7 @@ export class Navbar extends Component {
             <div className ='Menu'>
                 <nav className = 'Nav-bar'>
                     {/*  add Navlink styling to showcase each active link */}
-                    <NavLink activeClassName = 'active-tab' to = '/locations'>locations</NavLink>
+                    <NavLink activeClassName = 'active-tab' to = '/locations'>Locations</NavLink>
                     <NavLink activeClassName = 'active-tab' to = '/signup'>Sign Up</NavLink>
                     <NavLink activeClassName = 'active-tab' to = '/about'>About</NavLink>
                     </nav>
