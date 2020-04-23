@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios';
 
 
 const API_URL = 'https://data.cityofnewyork.us/resource/if26-z6xq.json';
@@ -42,4 +43,4 @@ class Search extends React.Component {
     }
 }
 
-export default Search
+export default Search;
