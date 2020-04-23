@@ -10,11 +10,9 @@ class SignUp extends Component {
         return (
             <div className = 'sign-container'>
                 <SignUpText />
-                <button className ='sign-btn'>
-                <a className ='sign-anchor' href={`https://www1.nyc.gov/assets/dsny/site/contact/organics-collection-application`}>Send Me there!</a>
-
-                </button>
-              
+                    <button className ='sign-btn'>
+                        <a className ='sign-anchor' href={`https://www1.nyc.gov/assets/dsny/site/contact/organics-collection-application`}>Send Me There!</a>
+                    </button>
             </div>
         );
     }
