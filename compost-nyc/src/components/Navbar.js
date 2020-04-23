@@ -3,7 +3,7 @@ import {Route, Switch, NavLink} from 'react-router-dom';
 import Locations from './Locations';
 import Signup from './Signup';
 import About from './About';
-import '../components/Navbar.css';
+import '../styling/Navbar.css';
 
 
 export class Navbar extends Component {
