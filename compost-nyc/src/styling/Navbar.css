@@ -3,7 +3,7 @@ a{
     color:White;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  
+
 h1{
     color:#4f98ca;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +25,6 @@ h1{
     background-image: url('../images/compost.jpg');
     background-size: cover;
     background-position: center;
-    /* padding-bottom: 100px; */
     height: 150px;
     font-size: large;
 }

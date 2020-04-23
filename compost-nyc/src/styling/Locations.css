@@ -1,0 +1,17 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.body-child{
+    display: inline-block
+    /* flex-direction: column;
+    justify-content: center;
+    width: auto;
+    position: relative; */
+}
