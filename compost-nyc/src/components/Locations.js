@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Borough from './Borough';
 import Search from './Search';
 import Zip from './Zip';
+import '../styling/Locations.css';
 
 export class Locations extends Component {
     constructor(props){
@@ -32,9 +33,9 @@ export class Locations extends Component {
         return (
             <div className='body-container'>
                 <div className='body-child'>
-                <Search />
-                < Borough />
-                <Zip />
+                    <Search />
+                    <Borough />
+                    <Zip />
                 </div>
             </div>
         )
