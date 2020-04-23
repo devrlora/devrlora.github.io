@@ -9,7 +9,7 @@ import '../components/Navbar.css';
 export class Navbar extends Component {
     render() {
         return (
-            <div className ='Menu'>
+            <div>
                 <nav className = 'Nav-bar'>
                     {/*  add Navlink styling to showcase each active link */}
                     <NavLink activeClassName = 'active-tab' to = '/locations'>Locations</NavLink>
