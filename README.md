@@ -18,7 +18,7 @@
 # Wireframe
 ## 2 Stateful components:
 
-### SearchBar,
+### SearchBar,Search Borough,
 
 ## 6 Stateless components:
 ### Navbar, Footer, Signup,
