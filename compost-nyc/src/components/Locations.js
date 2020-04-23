@@ -26,8 +26,6 @@ export class Locations extends Component {
         close: data[3].hours_from
     })
     
-    // console.log(data[0]);
-
         }
     render() {
         return (

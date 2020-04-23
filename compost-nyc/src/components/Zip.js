@@ -7,7 +7,7 @@ export class Zip extends Component {
             zip: '',
            }
     }
-// Unable to render api objects into DOM, Hard coded zip code into index instead. 
+// Unable to render api objects into DOM, Hard coded zip code into index instead 
     async componentDidMount(){
         const url = 'https://data.cityofnewyork.us/resource/if26-z6xq.json?#zip_code';
         const response = await fetch(url);
