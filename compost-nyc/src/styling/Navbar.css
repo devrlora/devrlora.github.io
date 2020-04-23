@@ -2,14 +2,15 @@ a {
     text-decoration: none;
 }
 a,h1{
-    color:#655c56;
+    color:White;
     font-family: 'ConcertOne-Regular';
   }
 
+  /* Adds a highlight when then element is selected */
 .active-tab{
-    color:#655c56;
+    color: white;
     font-size: larger;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 
@@ -18,7 +19,10 @@ a,h1{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #94d3ac;
-    padding: 20px;
+    background-image: url('../images/compost.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    height: 150px;
     font-size: large;
 }
