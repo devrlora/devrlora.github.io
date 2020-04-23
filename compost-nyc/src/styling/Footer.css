@@ -1,6 +1,14 @@
-.footer{
+.footer-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
     font-size: x-small;
+    justify-content: flex-end;
+    height: 300px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 0px;
 }
