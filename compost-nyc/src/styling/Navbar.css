@@ -3,7 +3,7 @@ a {
 }
 a,h1{
     color:White;
-    font-family: 'ConcertOne-Regular';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   /* Adds a highlight when then element is selected */
@@ -22,7 +22,7 @@ a,h1{
     background-image: url('../images/compost.jpg');
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    /* padding-bottom: 100px; */
     height: 150px;
     font-size: large;
 }
