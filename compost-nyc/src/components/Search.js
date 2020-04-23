@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 
 const API_URL = 'https://data.cityofnewyork.us/resource/if26-z6xq.json';
 
-class Search extends Component {
+class Search extends React.Component {
     state = {
         query: '',
         results:[]
@@ -15,8 +15,8 @@ class Search extends Component {
     }
     
     getInfo = () => {
-        // axios.get(`${API_URL}?borough=${this.state.query}`)
-        axios.get(`${API_URL}`)
+        axios.get(`${API_URL}?borough=${this.state.query}`)
+        // axios.get(`${API_URL}`)
           .then(({ data }) => {
             this.setState({
               query: data.borough                           
