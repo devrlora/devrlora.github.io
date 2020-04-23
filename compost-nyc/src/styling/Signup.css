@@ -7,7 +7,6 @@
     margin-top: 50px;
     height: 300px;
     width:50%;
-    padding-top: 50px;
     text-align: center;
     border-radius: 16px;
     border-color:  #50d890;
@@ -26,6 +25,6 @@
 
 }
 .sign-anchor{
-    color :red;
+    color :black;
     width: 100px;
 }
