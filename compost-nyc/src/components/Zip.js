@@ -9,7 +9,7 @@ export class Zip extends Component {
     }
 
     async componentDidMount(){
-        const url = 'https://data.cityofnewyork.us/resource/if26-z6xq.json?zip_code=10001';
+        const url = 'https://data.cityofnewyork.us/resource/if26-z6xq.json?borough=Manhattan';
         const response = await fetch(url);
         const data = await response.json();
         this.setState({
