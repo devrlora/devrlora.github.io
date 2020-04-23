@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import '../styling/Signup.css';
+import '../styling/SignUp.css';
+import SignUpText from './SignUpText';
 
 // import {Route} from 'react-router-dom';
 
 
-class Signup extends Component {
+class SignUp extends Component {
     render() {
         return (
             <div className = 'sign-container'>
+                <SignUpText />
                 <button className ='sign-btn'>
                 <a className ='sign-anchor' href={`https://www1.nyc.gov/assets/dsny/site/contact/organics-collection-application`}>Send Me there!</a>
 
@@ -18,4 +20,4 @@ class Signup extends Component {
     }
 }
 
-export default Signup;
+export default SignUp;
