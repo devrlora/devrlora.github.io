@@ -9,6 +9,22 @@ class Search extends Component {
         results:[]
     }
 
+    handleChange =() =>{
+        this.setState({
+            query: this.search.value})
+    }
+    
+    getInfo = () => {
+        // axios.get(`${API_URL}?borough=${this.state.query}`)
+        axios.get(`${API_URL}`)
+          .then(({ data }) => {
+            this.setState({
+              query: data.borough                           
+            })
+            
+          })
+      }
+
     render() {
         return (
             <div>
