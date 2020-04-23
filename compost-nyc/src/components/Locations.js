@@ -30,13 +30,12 @@ export class Locations extends Component {
         }
     render() {
         return (
-            <div>
-                {/* <h1>{this.state.site} - {this.state.location} Open from : {this.state.open} to {this.state.close}</h1> */}
+            <div className='body-container'>
+                <div className='body-child'>
                 <Search />
                 < Borough />
                 <Zip />
-
-          
+                </div>
             </div>
         )
     }
