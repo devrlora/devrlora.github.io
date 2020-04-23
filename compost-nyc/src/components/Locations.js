@@ -33,9 +33,10 @@ export class Locations extends Component {
             <div>
                 {/* <h1>{this.state.site} - {this.state.location} Open from : {this.state.open} to {this.state.close}</h1> */}
                 <Search />
+                < Borough />
                 <Zip />
 
-          < Borough />
+          
             </div>
         )
     }
