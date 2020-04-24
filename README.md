@@ -20,7 +20,7 @@
 
 ### Locations, Search, Borough, Zip
 
-## 6 Stateless components:
+## 5 Stateless components:
 ### Navbar, Footer, SignUp, SignUpText, CopyRight
 
  ![Location Page](https://github.com/devrlora/compost-nyc/blob/master/compost-nyc/wireframe/Page1%20-%20Location.png "Location Page 1")

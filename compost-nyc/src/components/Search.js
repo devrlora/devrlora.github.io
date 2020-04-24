@@ -30,13 +30,13 @@ class Search extends React.Component {
         return (
             <div>
                 <form >
-                <label>
-                    Borough Name:
-                    <input type = 'text' placeholder= "Search..."
-                     onChange={this.handleInputChange}/>
-                     </label>
-                     <button type='submit'>Search</button>
-                     <p>results go here: {this.state.query}</p>
+                    <label>
+                        Borough Name:
+                        <input type = 'text' placeholder= "Search..."
+                        onChange={this.handleInputChange}/>
+                    </label>
+                        <button type='submit'>Search</button>
+                        <p>results go here: {this.state.query}</p>
                  </form>
             </div>
         )
