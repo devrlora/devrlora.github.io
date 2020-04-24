@@ -13,7 +13,8 @@
 ## npm install react-router-dom
 ## npm install axios
 
-
+# Resources Used:
+## https://alligator.io/react/live-search-with-axios/
 
 # Wireframe
 ## 4 Stateful components:
@@ -28,4 +29,4 @@
  ![About](https://github.com/devrlora/compost-nyc/blob/master/compost-nyc/wireframe/Page3%20-%20About.png "About Page 3")
 
 ## Link:
-### 
+### devrlora.github.io
