@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple21</title>
+</head>
+
+<body>
+
+    <body onload="greeting()">
+        <div id="topContainer">
+            <div id="randomNum1">
+                <div id="numLeft"></div>
+            </div>
+
+            <div id="siteTopText">
+                <h1>Round </h1>
+                <div id="numRound">0</div>
+                <h1>Of 5</h1>
+            </div>
+
+            <div id="randomNum2">
+                <div id="numRight"></div>
+            </div>
+        </div>
+        <div id="over">
+            <h1 id="endTheGame"></h1>
+        </div>
+
+        <div id="startButton">
+            <button id="clickPlay" type="button" value="Count" onclick="newNum()">Click To Play</button>
+        </div>
+
+        <div id="bottomContainer">
+            <div id="resultBoxLeft">
+                <div id="resultLeft"> You Won:<span id="displayCount1">0</span> Rounds</div>
+            </div>
+
+            <div id="displayWinner">
+                <div class="displayNameParent">
+                    <h2 id="playerName"> </h2>
+                </div>
+                <!----  Reload page when restart button is clicked  --->
+                <button id="restartButton" onclick="location.reload();">Restart Game</button>
+            </div>
+
+            <div id="resultBoxRight">
+                <div id="resultRight">Dealer Won:<span id="displayCount2">0</span> Rounds</div>
+            </div>
+        </div>
+
+        <script src="/app.js"></script>
+    </body>
+
+</html>
